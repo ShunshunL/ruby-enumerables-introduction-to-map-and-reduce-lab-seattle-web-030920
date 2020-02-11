@@ -55,3 +55,9 @@ def reduce_to_all_true(source_array)
   end
   return_value
 end
+
+def reduce_to_any_true(source_array)
+  index = 0 
+  return_value = false 
+  while index < source_array
+end
