@@ -46,8 +46,10 @@ end
 
 def reduce_to_all_true(source_array)
   index = 0 
+  return_value = true 
   while index < source_array.length 
-    
+    if source_array[index]
     index += 1 
   end
+  return_value
 end
