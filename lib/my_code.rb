@@ -41,7 +41,7 @@ def reduce_to_total(source_array, starting_point = 0)
     if(starting_point == 0)
       total += source_array[index]
     else 
-      total = starting_point + source_array[index]
+      total = total + starting_point + source_array[index]
     end 
     index += 1  
   end
