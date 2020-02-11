@@ -48,7 +48,7 @@ def reduce_to_all_true(source_array)
   index = 0 
   while index < source_array.length 
     if source_array[index] = false || source_array[index] = nil
-      return false 
+      return source_array[index] 
     else 
       return true 
     end 
