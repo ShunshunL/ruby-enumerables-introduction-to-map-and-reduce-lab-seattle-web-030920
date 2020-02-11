@@ -12,4 +12,5 @@ end
 def map_to_no_change(source_array) 
   return_array = []
   return_array << source_array
+  return_array
 end
